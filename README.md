@@ -57,6 +57,15 @@ TECH：：CAMP在籍中開発アプリ
   [ランディングページ集めました](http://lp-web.com/?fbclid=IwAR2IBRO4NAVuumN32U_M1rhNU9-yIWEb_UG9Xj3micj21WATEhw2HW2qYp4)  
   [炎の講演家　鴨頭嘉人](https://kamogashira.com/)
 
+
+# Task
+
+* VIEWの崩れを無くす
+* サーバーサイド側を充実させる
+
 # Future features
 
+* 複数のテンプレートを作成する  
+　実際にLPを作成したい人向けにリリースするため
+ 
 * 
