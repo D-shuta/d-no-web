@@ -19,8 +19,9 @@
 * フロント実装の復習も兼ねてテンプレートとして残せる物を作成
 
 # DEMO
-
- https://gyazo.com/8ed2c0d1eda044d4f8edefc9b2f33bf1
+ * TECH CAMPでの作品をクリック
+ 
+ ![test](https://user-images.githubusercontent.com/61194189/78894919-ed25e700-7aa8-11ea-8256-0edd7dbeb742.gif)
  
 # Features
 
