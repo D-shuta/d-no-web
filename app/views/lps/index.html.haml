@@ -6,19 +6,62 @@
       =link_to "#" do
         %span.important このサイトについて
   .header__js
-    .header__js--box
-      ブログ
-    .header__js--box
-      You Tube
-    .header__js--box
-      SNS
-    .header__js--box
-      活動内容
-    .header__js--box
-      =link_to "https://dnolink.herokuapp.com/",target:"_blank" do
-        TECH CAMPでの作品
-    .header__js--box
-      お問い合わせ
+    %ul.header-dropmenu
+      %li
+        %a{href: "#"} ブログ
+        %ul
+          %li
+            %a{href: "https://plaza.rakuten.co.jp/dnoheya/",target:"_blank"} 楽天ブログ
+          %li
+            %a{href: "https://qiita.com/d_shuta",target:"_blank"} Qiita
+          -# %li
+          -#   %a{href: "#"} サブカテゴリ
+      %li
+        %a{href: "#"} You Tube
+        %ul
+          %li
+            %a{href: "#"} 作品１
+          %li
+            %a{href: "#"} 作品２
+          %li
+            %a{href: "#"} 作品３
+      %li
+        %a{href: "#"} SNS
+        %ul
+          %li
+            %a{href: "https://www.facebook.com/profile.php?id=100033674423897", target:"_blank"} Facebook
+          %li
+            %a{href: "https://twitter.com/D_noheya", target:"_blank"} Twitter
+          %li
+            %a{href: "https://www.instagram.com/",target:"_blank"} Instagram
+      %li
+        %a{href: "#"} 活動
+        %ul
+          %li
+            %a{href: "https://www.facebook.com/nerimaku.rinnri/",target:"_blank"} 練馬区倫理法人会
+          -# %li
+          -#   %a{href: "#"} サブカテゴリ
+          -# %li
+          -#   %a{href: "#"} サブカテゴリ
+      %li
+        %a{href: "#"} TECH CAMPでの作品
+        %ul
+          %li
+            %a{href: "#"} 個人アプリゼロ
+          -# %li
+          -#   %a{href: "#"} サブカテゴリ
+          -# %li
+          -#   %a{href: "#"} サブカテゴリ
+      %li
+        %a{href: "#"} お問い合わせ
+        -# %ul
+        -#   %li
+        -#     %a{href: "#"} サブカテゴリ
+        -#   %li
+        -#     %a{href: "#"} サブカテゴリ
+        -#   %li
+        -#     %a{href: "#"} サブカテゴリ
+
 .top
   .top__one
   .top__two
