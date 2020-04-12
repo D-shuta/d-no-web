@@ -18,15 +18,50 @@
       =link_to "https://dnolink.herokuapp.com/" do
         TECH CAMPでの作品
     .header__js--box
-      ka
-    .header__js--box
-      ka
+      このサイトの紹介
+.image
+
 .contents
   .contents__main
     .contents__main--one
       あ
     .contents__main--two
       ああ
+      
+.text
+  .text__main
+    .text__main--one
+      ようこそ！
+    .text__main--two
+      こちらのサイトでは作品のポートフォリオの掲載
+      %br
+      簡単な自己紹介を掲載しております
+      %br
+      TECH::CAMPで学んだ技術を使って自分の事を世の中に発信していければと感じております
+    .text__main--one
+      エンジニアは世界を変えられる。
+    .text__main--two
+      エンジニアを目指すきっかけは、そう思ったのが始まり
+      %br
+      %br
+      前職のドラッグストアーで働いている時に、楽しそうに働いている人が減ってきていると体感しました
+      %br
+      人手不足が加速する中で伝票が手書き処理、発注が自動化されないなどアナログな作業は減らない
+      %br
+      専門知識を持っているのに接客する時間がなく活かせていない
+      %br
+      などの問題をテクノロジーでアナログ作業を簡略化できれば
+      %br
+      もっと自分の能力を使った働き方が出来て、お客様にも喜んでもらえる仕事ができる！
+      %br
+      さらには、小売業だけでなく、サービス業で働く人のような接客業だけでなく
+      %br
+      %br
+      全ての働く人が働きやすい世界を開発で作れる！
+      %br
+      %br
+      自分が作れる人になるため日々勉強中
+
 .sabu
   .sabu__box
     .sabu__box--text
@@ -43,13 +78,17 @@
         .sabuone
           登録
       .sabu__box--right
-        fome_with
-        .sabutwo
-        .sabutwo
-        .sabutwo
-        .sabutwo
-        .sabutwo
-          送信
+        = form_with url: "/", local: true, class:"form" do |f|
+          .sabutwo
+            = f.text_field :name,placeholder: '記入例、　田中太郎'
+          .sabutwo
+            = f.email_field :email,placeholder: '記入例　tanaka@.com'
+          .sabutwo
+            = f.text_field :name,placeholder: '40文字まで'
+          .sabutwo
+            = f.text_field :name,placeholder: '200文字まで'
+          .sabuthree
+            = f.submit '送信', class: 'submit--btn'
     .sabu__box--two
       メルマガ登録
 
