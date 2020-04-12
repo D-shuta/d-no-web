@@ -1,0 +1,2 @@
+module PuroHelper
+end

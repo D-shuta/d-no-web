@@ -1,10 +1,10 @@
 .header
   .header__top
     .header__title
-      ランディングページ　（LP)
+      DのLP
     .header__title
-      =link_to "https://dnolink.herokuapp.com/messages/show" do
-        プロフィール
+      =link_to "#" do
+        %span.important このサイトについて
   .header__js
     .header__js--box
       ブログ
@@ -15,19 +15,56 @@
     .header__js--box
       活動内容
     .header__js--box
-      =link_to "https://dnolink.herokuapp.com/" do
+      =link_to "https://dnolink.herokuapp.com/",target:"_blank" do
         TECH CAMPでの作品
     .header__js--box
-      このサイトの紹介
+      お問い合わせ
+.top
+  .top__one
+  .top__two
+    .top__three
+      働く人を
+      %br
+      　テクノロジーの力で
+      %br
+      　　　元気に！！
+    .top__fore
+      SHUTA TANAKA
+    .top__five
+      =link_to puro_index_path do
+        プロフィール
 .image
-
+  %span.image1
+  %span.image2
+  %span.image3
 .contents
   .contents__main
     .contents__main--one
-      あ
+      .youtube-container
+        #player1{class:"icon"}
+        .youtube-container
+          %iframe#player{frameborder: "0", height:"365", src: "https://www.youtube.com/embed/_iyWi5wnwCg", type: "text/html", width: "100%",class:"icon1"}
+          %span
+            エンジニアを目指すきっかけとなった動画
     .contents__main--two
-      ああ
-      
+      .contents__main--three
+        ●会社のせいにしてはいけない、、
+        %br
+        　自分が作る側になろうと思うきっかけの動画
+        %br
+        　会社が変わるのを待つのではなく
+        %br
+        　自分の力で変えていく、、
+      .contents__main--three
+        ●スキルアップをしたかった、、
+        %br
+        　エンジニアスクールに通うきかっけの動画
+        %br
+        　同じ仕事を続けるよりも
+        %br
+        　新しいことに挑戦したかった
+        %br
+        　エンジニアはやりたいことと一致した！
 .text
   .text__main
     .text__main--one
@@ -78,15 +115,15 @@
         .sabuone
           登録
       .sabu__box--right
-        = form_with url: "/", local: true, class:"form" do |f|
+        = form_with model: @lp do |f|
           .sabutwo
             = f.text_field :name,placeholder: '記入例、　田中太郎'
           .sabutwo
-            = f.email_field :email,placeholder: '記入例　tanaka@.com'
+            = f.email_field :email,placeholder: '記入例　tanaka@.com',size:24
           .sabutwo
-            = f.text_field :name,placeholder: '40文字まで'
+            = f.text_area :name,placeholder: '40文字まで',size:"30x4"
           .sabutwo
-            = f.text_field :name,placeholder: '200文字まで'
+            = f.text_area :name,placeholder: '200文字まで',size:"30x4"
           .sabuthree
             = f.submit '送信', class: 'submit--btn'
     .sabu__box--two
