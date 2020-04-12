@@ -19,7 +19,18 @@
 * フロント実装の復習も兼ねてテンプレートとして残せる物を作成
 
 # DEMO
- * TECH CAMPでの作品をクリック
+
+ * トップページリンク先の設定  
+ 
+ ![test](https://user-images.githubusercontent.com/61194189/79075195-50737b80-7d2c-11ea-84c4-41145b203100.gif)
+ 
+ 
+ * トップページの背景が切り替わる  
+ 
+ ![test](https://user-images.githubusercontent.com/61194189/79075459-f673b580-7d2d-11ea-973d-4549a333cfac.gif)
+
+ 
+ * TECH CAMPでの作品→個人アプリゼロをクリック
  
  ![test](https://user-images.githubusercontent.com/61194189/78894919-ed25e700-7aa8-11ea-8256-0edd7dbeb742.gif)
  
@@ -69,7 +80,7 @@ TECH：：CAMP在籍中開発アプリ
 　SNSで自分はこんな事が出来ますを発信していく。この作品はその発信元にしていきたい  
  
 * 機能を充実させる  
-　jqueryによる動きを追加して画像の切り替えやカテゴリーの切り替えを実装したい  
+　jqueryによる動きを追加して画像の切り替えやカテゴリーの切り替えを実装したい
 　背景の切替えをCSSで実装したのでJSでの実装も試したい
 
 # Author
