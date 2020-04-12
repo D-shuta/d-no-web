@@ -7,10 +7,9 @@ a{
   height: 100px;
   background-color: ivory;
   &__top{
-    width: 100%;
+    width: 90%;
     height: 80%;
     margin: 0 auto;
-    max-width: 1000px;
     display: flex;
     justify-content: space-between;
 
@@ -34,12 +33,46 @@ a{
 
   }
 }
-  .contents{
+  .image{
     width: 100%;
-    height: 100vh;
+    height: 650px;
+    margin: 0 auto;
+    background-color: burlywood;
+  }
+  .text{
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+    background-color: royalblue;
+    &__main{
+      width: 70%;
+      margin: 0 auto;
+      height: 100%;
+      background-color: white;
+      &--one{
+        font-size: 30px;
+        font-weight: 800;
+        width:100%;
+        margin:0 auto;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+      }
+      &--two{
+        height: 70px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+  }
+  .contents{
+    width: 90%;
+    height: 750px;
     background-image:  image-url("#");
     background-size: 100% 100%;
-    padding: 0 100px;
+    margin:0 auto ;
       &__main{
         min-width: 700px;
         width: 100%;
@@ -119,16 +152,16 @@ a{
     }
   }
 .sabu{
-  width: 100%;
-  height: 100vh;
-  padding: 0 100px ;
+  width: 90%;
+  height: 650px;
+  margin: 0 auto;
   &__box{
-    background-color: gold;
-    width: 100%;
+    // background-color: gold;
+    width: 90%;
     height: 100%;
-    padding: 100px;
+    margin: 0 auto;
     &--text{
-      max-width: 1000px;
+      // max-width: 1000px;
       width:100% ;
       height: 90%;
       background-color: white;
@@ -139,7 +172,7 @@ a{
       }
       .sabuone{
         width:100%;
-        height: 95px;
+        height: 20%;
         border-bottom: solid lightgrey 1px;
         border-right: solid lightgrey 1px;
         text-align: center;
@@ -150,15 +183,29 @@ a{
           font-size: 24px;
         }
     }
+
+    &--right{
+      width: 50%;
+    }
+    .form{
+      width:100%;
+      height:100% ;
+    }
     .sabutwo{
       width:100%;
-      height: 95px;
+      height: 20%;
       border-bottom: solid lightgrey 1px;
       border-right: solid lightgrey 1px;
+      font-size: 18px;
+      text-align: left;
+      line-height: 95px;
     }
-      &--right{
-        width: 50%;
-      }
+    .sabuthree{
+      font-size: 50px;
+      text-align: center;
+
+    }
+    
     &--two{
       width: 100%;
       height: 10%;
