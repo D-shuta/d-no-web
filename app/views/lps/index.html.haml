@@ -1,3 +1,4 @@
+.article#topic
 .header
   .header__top
     .header__title
@@ -176,7 +177,7 @@
 
 .contents__footer
   .contents__footer--box
-    = link_to anchor: "topic", class: "contents__footer--box--one" do
+    = link_to anchor: "topic" do
       トップへ戻る
     = link_to "https://www.facebook.com/profile.php?id=100033674423897", target:"_blank",class: "contents__footer--btntwo" do
       = icon('fab', 'facebook-square',  class: "contents__footer--box--two--icon")
