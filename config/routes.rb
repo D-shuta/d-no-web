@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root to: 'lps#index'
-  resources :lps, only: [:new,:create,:show]
+  resources :lps, only: [:index,:new,:create,:show]
+  # post 'lps/:id' => 'ips#index'
   resources :puro, only: [:index]
 end
 
