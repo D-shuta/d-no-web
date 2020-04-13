@@ -143,7 +143,7 @@
       %br
       自分が作れる人になるため日々勉強中
 
-.sabu
+-# .sabu
   .sabu__box
     .sabu__box--text
       
@@ -159,15 +159,15 @@
         .sabuone
           登録
       .sabu__box--right
-        = form_with model: @lp do |f|
+        = form_with model: @lp, class: :form, local: true do |f|
           .sabutwo
             = f.text_field :name,placeholder: '記入例、　田中太郎'
           .sabutwo
             = f.email_field :email,placeholder: '記入例　tanaka@.com',size:24
           .sabutwo
-            = f.text_area :name,placeholder: '40文字まで',size:"30x4"
+            = f.text_area :comment,placeholder: '40文字まで',size:"30x4"
           .sabutwo
-            = f.text_area :name,placeholder: '200文字まで',size:"30x4"
+            = f.text_area :text,placeholder: '200文字まで',size:"30x4"
           .sabuthree
             = f.submit '送信', class: 'submit--btn'
     .sabu__box--two
@@ -190,6 +190,8 @@
     = link_to "https://www.instagram.com/",target:"_blank", class: "contents__footer--box--five" do
       = icon('fab', 'instagram', class: "contents__footer--box--five--icon")
       %span Instagram
+    = link_to "#",target:"_blank", class: "contents__footer--box--five" do
+      %span メルマガ
   .contents__footer--name
     個人アプリ制作〜 制作（たなか　しゅうた
     = link_to "https://kamogashira.com/", target:"_blank" do
