@@ -120,12 +120,13 @@ a{
   
     }
     &__five{
-      font-size: 30px;
+      font-size: 40px;
       height: 200px;
       text-align: left;
-      line-height: 200px;
+      // line-height: 200px;
       margin-left: 30px;
       color: white;
+      font-weight: 900;
     }
 
 }
