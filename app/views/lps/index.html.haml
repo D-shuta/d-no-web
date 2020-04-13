@@ -159,7 +159,7 @@
         .sabuone
           登録
       .sabu__box--right
-        = form_with model: @lp, class: :form, local: true do |f|
+        = form_with(model: @lp, local: true) do |f|
           .sabutwo
             = f.text_field :name,placeholder: '記入例、　田中太郎'
           .sabutwo
