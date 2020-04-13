@@ -1,0 +1,99 @@
+.sabu{
+  width: 100%;
+  height: 750px;
+  margin: 0 auto;
+  background-image:  image-url("bg/hai2.jpg");
+  background-size: 100% 100%;
+  
+  &__box{
+    // background-color: gold;
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    &--text{
+      // max-width: 1000px;
+      width:100% ;
+      height: 90%;
+      // background-color: white;
+      display: flex;
+    }
+      &--left{
+        width: 50%;
+      }
+      .sabuone{
+        width:100%;
+        height: 20%;
+        border-bottom: solid lightgrey 1px;
+        border-right: solid lightgrey 1px;
+        text-align: center;
+        line-height: 95px;
+        font-size: 20px;
+        color: white;
+        span{
+          color: red;
+          font-size: 24px;
+        }
+    }
+
+    &--right{
+      width: 50%;
+      
+      // font-size: 8px;
+    }
+    // .form{
+    //   width:100%;
+    //   height:100% ;
+    // }
+    .sabutwo{
+      width:100%;
+      height: 25%;
+      border-bottom: solid lightgrey 1px;
+      border-right: solid lightgrey 1px;
+      font-size: 16px;
+      text-align: left;
+      line-height: 134px;
+    }
+    .sabuthree{
+      font-size: 50px;
+      text-align: center;
+
+    }
+    
+    &--two{
+      width: 100%;
+      height: 10%;
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+
+      
+    }
+    .submit--btn {
+      position: relative;
+      display: inline-block;
+      font-weight: bold;
+      padding: 0.25em 0;
+      text-decoration: none;
+      color: #67c5ff;  
+    }
+    
+    .submit--btn:before {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 4px;
+      top:100%;
+      left: 0;
+      border-radius: 3px;
+      background:#67c5ff;
+      transition: .2s;
+    }
+    
+    .submit--btn:before {
+      top: -webkit-calc(100% - 3px);
+      top: calc(100% - 3px);
+    }
+  }
+
+}
+

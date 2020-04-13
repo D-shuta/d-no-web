@@ -8,7 +8,6 @@ class LpsController < ApplicationController
   end
   def create
     Lp.create(lp_params)
-    redirect_to root_path
   end
 
   private
