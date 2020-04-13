@@ -65,6 +65,7 @@
 
 .top
   .top__one
+    = image_tag "bg/shu2.jpg",width: "300",height:"300", class:"hon"
   .top__two
     .top__three
       働く人を
@@ -190,8 +191,10 @@
     = link_to "https://www.instagram.com/",target:"_blank", class: "contents__footer--box--five" do
       = icon('fab', 'instagram', class: "contents__footer--box--five--icon")
       %span Instagram
-    = link_to "#",target:"_blank", class: "contents__footer--box--five" do
-      %span メルマガ
+    = link_to new_lp_path,class: "contents__footer--box--five" do
+      %span メルマガ登録お願い致します
+    = link_to "#",class: "contents__footer--box--six" do
+      %span メルマガバックナンバー
   .contents__footer--name
     個人アプリ制作〜 制作（たなか　しゅうた
     = link_to "https://kamogashira.com/", target:"_blank" do
