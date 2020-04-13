@@ -34,7 +34,8 @@ https://dnoweb.herokuapp.com/
  
  * TECH CAMPでの作品→個人アプリゼロをクリック
  
- ![test](https://user-images.githubusercontent.com/61194189/78894919-ed25e700-7aa8-11ea-8256-0edd7dbeb742.gif)
+ ![test](https://user-images.githubusercontent.com/61194189/78894919-ed25e700-7aa8-11ea-8256-0edd7dbeb742.gif)  
+ 　前進サイトのため未完成
  
 # 特徴  
 
