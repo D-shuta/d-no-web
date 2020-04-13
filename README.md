@@ -1,24 +1,26 @@
 # README
 
-# Development environment
+# 開発環境
 * Rails version
 5.2.3
 * Ruby version
 2.5.1
 
-## Name（d-no-web）  
+## 名前　d-no-web  
+URL  
+https://dnoweb.herokuapp.com/
 
-# Details
+# 詳細  
 
 * Webで売上を作るランディングページ（LP）
 
-# Production reason
+# 作成理由  
 
 * 将来も使える自己紹介のページを作成したかった。
 * LPなら今後のキャリアで形に残った作品を紹介してビジネスに繋げやすいと考えた。
 * フロント実装の復習も兼ねてテンプレートとして残せる物を作成
 
-# DEMO
+# デモ  
 
  * トップページリンク先の設定  
  
@@ -34,7 +36,7 @@
  
  ![test](https://user-images.githubusercontent.com/61194189/78894919-ed25e700-7aa8-11ea-8256-0edd7dbeb742.gif)
  
-# Features
+# 特徴  
 
 * サイトに動画を乗せる事でSEO効果が５３倍！  
 * 検索ページの１ページ目に表示されやすくする効果がある  
@@ -43,21 +45,21 @@
 ではトップページに動画が乗っていない   
 * 有名なサイトに対して、後追いでも動画を活用すれば有名なサイトに負けない可能性あり！
 
-# Requirement
+# 要件  
 
 * Internet environment
 
-# access
+# アクセス  
 
 TECH：：CAMP在籍中開発アプリ
 [D-no-web](https://dnoweb.herokuapp.com/)
 
-# Note
+# 注意  
 
 * リンク先のYouTubに移行すると
 音声が出ます。音量注意
 
-# Reference
+# 参照  
 * 参考にしたサイト  
 
   [ペライチ](https://peraichi.com/)  
@@ -65,12 +67,12 @@ TECH：：CAMP在籍中開発アプリ
   [炎の講演家　鴨頭嘉人](https://kamogashira.com/)
 
 
-# Task
+# 課題  
 
 * VIEWの崩れを無くす
 * サーバーサイド側を充実させる
 
-# Future features
+# 今後の機能  
 
 * 複数のテンプレートを作成する  
 　実際にLPを作成したい人向けにリリースするため
@@ -83,7 +85,7 @@ TECH：：CAMP在籍中開発アプリ
 　jqueryによる動きを追加して画像の切り替えやカテゴリーの切り替えを実装したい  
 　CSSで実装したのでJSでの実装も試したい
 
-# Author
+# 著者  
 
 * 作成者　田中秀太
 * 所属　TECH：：CAMP
