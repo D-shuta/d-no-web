@@ -1,0 +1,90 @@
+.sltop{
+  width:100%;
+  height:750px;
+  // background-color: lightblue;
+  &__main{
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+  }
+    &__sabu1{
+      margin-top: 120px;
+      width: 30%;
+      font-size: 60px;
+      color:white;
+    }
+    &__sabu2{
+      margin:150px 0 0 150px ;
+      width: 70%;
+      font-size: 20px;
+      line-height: 40px;
+      color: white;
+    }
+  &__btn{
+    width: 100%;
+    height: 10%;
+    font-size: 20px;
+    text-align: left;
+    margin-left:20px ;
+  }
+
+}
+
+
+.image2 {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &.image01 {
+      background-image: url(bg/hai3.jpg);
+      animation: Img01 15s ease-out infinite;
+      animation-delay: 3s;
+    }
+    &.image02 {
+      opacity: 0;
+      background-image: url(bg/hai4.jpg);
+      animation: Img02 15s ease-out infinite;
+      animation-delay: 3s;
+    }
+    &.image03 {
+      opacity: 0;
+      background-image: url(bg/hai1.jpg);
+      animation: Img03 15s ease-out infinite;
+      animation-delay: 3s;
+    }
+  }
+}
+
+@keyframes Img01 {
+    0% { opacity: 1; }
+    33% { opacity: 0; }
+    66% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes Img02 {
+    0% { opacity: 0; }
+    33% { opacity: 1; }
+    66% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes Img03 {
+    0% { opacity: 0; }
+    33% { opacity: 0; }
+    66% { opacity: 1; }
+    100% { opacity: 0; }
+}
