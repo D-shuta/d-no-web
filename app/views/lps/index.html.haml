@@ -144,38 +144,6 @@
       %br
       自分が作れる人になるため日々勉強中
 
--# .sabu
-  .sabu__box
-    .sabu__box--text
-      
-      .sabu__box--left
-        .sabuone
-          名前（姓、名）<span>　＊必須</span>
-        .sabuone
-          メールアドレス<span>　＊必須</span>
-        .sabuone
-          サイトを知ったキッカケ
-        .sabuone
-          気になった記事があれば教えて下さい
-        .sabuone
-          登録
-      .sabu__box--right
-        = form_with(model: @lp, local: true) do |f|
-          .sabutwo
-            = f.text_field :name,placeholder: '記入例、　田中太郎'
-          .sabutwo
-            = f.email_field :email,placeholder: '記入例　tanaka@.com',size:24
-          .sabutwo
-            = f.text_area :comment,placeholder: '40文字まで',size:"30x4"
-          .sabutwo
-            = f.text_area :text,placeholder: '200文字まで',size:"30x4"
-          .sabuthree
-            = f.submit '送信', class: 'submit--btn'
-    .sabu__box--two
-      メルマガ登録
-
-
-
 .contents__footer
   .contents__footer--box
     = link_to anchor: "topic" do

@@ -9,7 +9,6 @@ a{
 .header{
   width: 100%;
   height: 140px;
-  // background-color: ivory;
   &__top{
     width: 75%;
     height: 40%;
@@ -62,7 +61,7 @@ a{
       left: -1px;
       margin: 0;
       padding: 0;
-      border: 1px solid red; /* マウスオーバー時の枠線 */
+      border: 1px solid red;
       border-top: none;
     }
     ul.header-dropmenu li:hover ul {
@@ -88,7 +87,6 @@ a{
   width: 100%;
   height: 650px;
   background-image:  image-url("bg/ke.jpg");
-    // transform: rotate( +180deg );
   background-size: 100% 100%;
   display: flex;
   &__one{
@@ -97,7 +95,6 @@ a{
   }
   &__two{
     width:40%;
-    // transform: rotate( +180deg );
   }
     &__three{
       margin: 30px 0 0 30px;
@@ -192,12 +189,10 @@ a{
     width: 90%;
     height: 750px;
     margin: 0 auto;
-    // background-color: royalblue;
     &__main{
       width: 70%;
       margin: 0 auto;
       height: 100%;
-      // background-color: white;
       &--one{
         font-size: 30px;
         font-weight: 900;
@@ -226,7 +221,6 @@ a{
       min-width: 700px;
       width: 90%;
       height: 100%;
-      // background-color: hotpink;
       display: flex;
       &--one{
         width: 50%;
@@ -253,7 +247,6 @@ a{
     min-width: 700px;
     width:100%;
     height: 100px;
-    // background-color:burlywood;
     padding:0 55px;
     margin: 0 auto;
     background-image:  image-url("bg/haikei4.jpg");
